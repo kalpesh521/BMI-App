@@ -51,7 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
         appBar: AppBar(
           title: const Text(
-            "BMI Calculator",
+            "HealthFit Tracker",
             style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
           ),
           backgroundColor: Color.fromARGB(255, 62, 18, 92),
@@ -76,7 +76,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   TextField(
                     controller: wtController,
                     decoration: InputDecoration(
-                      label: Text("Enter your Weight (kg)"),
+                      label: Text("Enter Weight (Kg)"),
                       prefixIcon: Icon(Icons.line_weight_rounded),
                       labelStyle: TextStyle(color: Colors.white),
                     ),
@@ -87,7 +87,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   TextField(
                     controller: ftController,
                     decoration: InputDecoration(
-                      label: Text("Enter your Height (ft)"),
+                      label: Text("Enter height (ft)"),
                       prefixIcon: Icon(Icons.height_rounded),
                       labelStyle: TextStyle(color: Colors.white),
                     ),
@@ -98,7 +98,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   TextField(
                     controller: itController,
                     decoration: InputDecoration(
-                      label: Text("Enter your Height (inch)"),
+                      label: Text("Enter height(Inch)"),
                       prefixIcon: Icon(Icons.height_sharp),
                       labelStyle: TextStyle(color: Colors.white),
                     ),
@@ -148,7 +148,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       }
                     },
                     child: Text(
-                      "CALCULATE",
+                      "SUBMIT",
                       style: TextStyle(
                           color: Colors.white, fontWeight: FontWeight.bold),
                     ),
